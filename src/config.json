@@ -1,0 +1,56 @@
+{
+	"author": "contato@multassociais.net", 
+	"config_version": "3", 
+	"description": "My Description", 
+	"modules": {
+		"activations": [
+			{
+				"patterns": [
+					"http://*/*"
+				], 
+				"run_at": "ready", 
+				"scripts": [], 
+				"styles": []
+			}
+		], 
+		"button": {
+			"default_icon": "img/icon71.png", 
+			"default_popup": "index.html"
+		}, 
+		"event": true, 
+		"file": true, 
+		"geolocation": true, 
+		"icons": {
+			"android": {
+				"36": "img/icon36.png", 
+				"48": "img/icon48.png", 
+				"72": "img/icon72.png"
+			}, 
+			"ios": {
+				"114": "img/icon114.png", 
+				"144": "img/icon144.png", 
+				"57": "img/icon57.png", 
+				"72": "img/icon72.png"
+			}
+		}, 
+		"is": true, 
+		"logging": {
+			"level": "INFO"
+		}, 
+		"message": true, 
+		"notification": true, 
+		"prefs": true, 
+		"reload": true, 
+		"request": {
+			"permissions": [
+				"http://*/*"
+			]
+		}, 
+		"tabs": true, 
+		"tools": true, 
+		"topbar": true
+	}, 
+	"name": "Multas Sociais", 
+	"platform_version": "v1.4", 
+	"version": "0.2"
+}

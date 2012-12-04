@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Multas Sociais</string>
+    <string name="uuid">4242f3843db911e280a412313d31f141</string>
+    <string name="config_hash">ca4c6560779c8f7f26b29daa10a1b2da58e4b175</string>
+    <string name="trigger_domain">https://trigger.io</string>
+    <string name="payments_publicKey">PAYMENTS_PUBLIC_KEY_HERE</string>
+    <string name="splashimage">SPLASH_IMAGE_HERE</string>
+    <string name="splashimage_landscape">SPLASH_IMAGE_LANDSCAPE_HERE</string>
+    <string name="facebook_appid" />
+    <string name="disable_ics_acceleration">no</string>
+    <string-array name="modules">
+        <item>io.trigger.forge.android.modules.topbar</item><item>io.trigger.forge.android.modules.tools</item><item>io.trigger.forge.android.modules.tabs</item><item>io.trigger.forge.android.modules.request</item><item>io.trigger.forge.android.modules.reload</item><item>io.trigger.forge.android.modules.prefs</item><item>io.trigger.forge.android.modules.notification</item><item>io.trigger.forge.android.modules.file</item><item>io.trigger.forge.android.modules.internal</item>
+        <item>io.trigger.forge.android.modules.logging</item>
+        <item>io.trigger.forge.android.modules.launchimage</item>
+        <item>io.trigger.forge.android.modules.event</item>
+    </string-array>
+</resources>
